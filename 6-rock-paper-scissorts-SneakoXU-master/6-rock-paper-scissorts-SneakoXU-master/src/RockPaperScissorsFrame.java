@@ -30,7 +30,7 @@ public class RockPaperScissorsFrame extends JFrame {
         Border blackline = BorderFactory.createLineBorder(Color.black);
         Border titled = BorderFactory.createTitledBorder(blackline, "Pick one.", TitledBorder.CENTER, TitledBorder.TOP, new Font("Copperplate Gothic Bold", Font.PLAIN, 24));
         top.setBorder(titled);
-        rockIcon = new ImageIcon("assets/rock.jpg");
+        rockIcon = new ImageIcon("RockPaperScissorsGame-master\\assets\\rock.jpg");
         Image rockImage = rockIcon.getImage();
         Image modRock = rockImage.getScaledInstance(125,125, Image.SCALE_SMOOTH);
         rockIcon = new ImageIcon(modRock);
@@ -44,7 +44,7 @@ public class RockPaperScissorsFrame extends JFrame {
                 }
                 );
 
-        paperIcon = new ImageIcon("assets/paper.jpg");
+        paperIcon = new ImageIcon("RockPaperScissorsGame-master\\assets\\paper.jpg");
         Image paperImage = paperIcon.getImage();
         Image modPaper = paperImage.getScaledInstance(125,125, Image.SCALE_SMOOTH);
         paperIcon = new ImageIcon(modPaper);
@@ -58,7 +58,7 @@ public class RockPaperScissorsFrame extends JFrame {
                 }
         );
 
-        scissorsIcon = new ImageIcon("assets/scissors.jpg");
+        scissorsIcon = new ImageIcon("RockPaperScissorsGame-master\\assets\\paper.jpg\\scissors.jpg");
         Image scissorsImage = scissorsIcon.getImage();
         Image modScissors = scissorsImage.getScaledInstance(125,125, Image.SCALE_SMOOTH);
         scissorsIcon = new ImageIcon(modScissors);
@@ -72,7 +72,7 @@ public class RockPaperScissorsFrame extends JFrame {
                 }
         );
 
-        quitIcon = new ImageIcon("assets/quit.jpg");
+        quitIcon = new ImageIcon("RockPaperScissorsGame-master\\assets\\quit.jpg");
         Image quitImage = quitIcon.getImage();
         Image modQuit = quitImage.getScaledInstance(25,25, Image.SCALE_SMOOTH);
         quitIcon = new ImageIcon(modQuit);
