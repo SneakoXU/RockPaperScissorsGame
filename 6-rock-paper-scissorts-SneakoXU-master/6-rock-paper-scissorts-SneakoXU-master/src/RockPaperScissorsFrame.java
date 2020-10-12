@@ -58,7 +58,7 @@ public class RockPaperScissorsFrame extends JFrame {
                 }
         );
 
-        scissorsIcon = new ImageIcon("RockPaperScissorsGame-master\\assets\\paper.jpg\\scissors.jpg");
+        scissorsIcon = new ImageIcon("RockPaperScissorsGame-master\\assets\\scissors.jpg");
         Image scissorsImage = scissorsIcon.getImage();
         Image modScissors = scissorsImage.getScaledInstance(125,125, Image.SCALE_SMOOTH);
         scissorsIcon = new ImageIcon(modScissors);
